@@ -1,1 +1,41 @@
 
+{
+  "clauses": [
+    {
+      "clause_id": "FHC-001.0-JC",
+      "thread_root": "001",
+      "version": "0",
+      "recipient": "Joe Clements",
+      "status": "Signal Logged",
+      "breach_type": "Visibility Bait",
+      "upgrade_path": "Upgrade Available",
+      "tags": ["initial", "diagnostic"],
+      "notes": "Initial reply exposing branding-as-bait",
+      "linked_clauses": ["FHC-001.1-JC"]
+    },
+    {
+      "clause_id": "FHC-001.1-JC",
+      "thread_root": "001",
+      "version": "1",
+      "recipient": "Joe Clements",
+      "status": "Escalated",
+      "breach_type": "Charity Camouflage",
+      "upgrade_path": "Counter-transmission",
+      "tags": ["escalation", "emotional bait"],
+      "notes": "Names emotional leverage and lack of transparency",
+      "linked_clauses": ["FHC-001.0-JC"]
+    },
+    {
+      "clause_id": "FHC-006.0-JTK",
+      "thread_root": "006",
+      "version": "0",
+      "recipient": "John T. Kessler",
+      "status": "Signal Logged",
+      "breach_type": "Emotional Bait",
+      "upgrade_path": "Upgrade Available",
+      "tags": ["initial", "visibility siphon"],
+      "notes": "New thread logging aesthetic filtration",
+      "linked_clauses": []
+    }
+  ]
+}
